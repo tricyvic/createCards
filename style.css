@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    box-shadow: 5px 10px 50px grey;  
+}
+.logo{
+    text-shadow: 5px 1px 10px blueviolet;
+    font-size: 3em;
+    user-select: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.rightNav{
+    display: flex;
+    
+    
+}
+.rightNav li{
+    list-style: none;
+    position: relative;
+    font-size: 2.1em;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.rightNav li:hover{
+    text-shadow: 5px 1px 10px blueviolet;
+    
+    transition: 0.5s;
+}
+.loginButton{
+    border-radius: 5%;
+}
+.loginButton:hover{
+    background-color: brown;
+    transition: 1s;
+}
+.content{
+    display: block;
+    text-align: center;
+}
+.topH1{
+    padding: 50px;
+    font-size: 50px;
+}
+.topH1:hover{
+    font-size: 80px;
+    transition: 1s;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20pX;
+}
+.display {
+    background-color: rgb(255, 230, 0);
+    height: 28pc;
+    width: 18pc;
+    border-radius: 5%;
+    display: block;
+    justify-content: space-between; 
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+}
+.display p ,.display h1{
+    padding-left: 3%
+}
+#img{
+    width: 100%;
+    height: 50%;
+}
+
+.display:hover{
+    height: 50pc;
+    width: 28pc;
+    box-shadow: 10px 10px 5px grey;
+    transition: 2s;
+
+}
+
+footer{
+    margin-top: 50px;
+    background-color: blueviolet;
+    padding: 20px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+footer h4{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+footer li{
+    list-style: none;
+}
